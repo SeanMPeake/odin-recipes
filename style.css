@@ -1,4 +1,38 @@
-h1 {
+.image {
+    height: auto;
+    max-width: 400px;
+    width: 100%;
+}
+
+.image-container {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.ingredients-list {
+    list-style-type: initial;
+}
+
+.recipe-link img{
+    height: auto;
+    max-width: 250px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.recipe-list-container {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.section-heading {
+    text-decoration: underline;
+}
+
+.title {
     text-align: center;
     background-color: aqua;
     padding: 15px;
@@ -7,23 +41,4 @@ h1 {
     max-width: 500px;
     margin: 0 auto;
     margin-bottom: 15px;
-}
-
-ul {
-    list-style-type: none;
-}
-
-a {
-    text-decoration: none;
-}
-
-.img {
-    margin: 0 auto;
-    text-align: center;
-}
-
-img {
-    height: auto;
-    max-width: 400px;
-    width: 100%;
 }
