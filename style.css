@@ -13,7 +13,12 @@
     list-style-type: initial;
 }
 
-.recipe-link img{
+.recipe {
+    max-width: 450px;
+    margin: 0 auto;
+}
+
+.recipe-links img{
     height: auto;
     max-width: 250px;
     width: 100%;
@@ -26,6 +31,10 @@
     justify-content: center;
     flex-wrap: wrap;
     margin: 0 auto;
+}
+
+.recipe-steps {
+    font-size: .85em;
 }
 
 .section-heading {
